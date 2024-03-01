@@ -1,0 +1,21 @@
+ <Period id="P1" duration="PT0H0M9.600S">
+  <AdaptationSet segmentAlignment="true" lang="und" startWithSAP="1">
+   <SegmentTemplate media="m1_audio_$Number$.m4s" initialization="m1_audio_init.mp4" timescale="48000" startNumber="1">
+    <SegmentTimeline>
+     <S t="0" d="92160" r="4"/>
+    </SegmentTimeline>
+   </SegmentTemplate>
+   <Representation id="1" mimeType="audio/mp4" codecs="mp4a.40.2" audioSamplingRate="48000" bandwidth="128000">
+    <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
+   </Representation>
+  </AdaptationSet>
+  <AdaptationSet segmentAlignment="true" maxWidth="1280" maxHeight="720" maxFrameRate="25" par="16:9" lang="und" startWithSAP="1">
+   <SegmentTemplate media="m1_video_$Number$.m4s" initialization="m1_video_init.mp4" timescale="25" startNumber="1">
+    <SegmentTimeline>
+     <S t="0" d="48" r="4"/>
+    </SegmentTimeline>
+   </SegmentTemplate>
+   <Representation id="3" mimeType="video/mp4" codecs="avc1.64001F" width="1280" height="720" frameRate="25" sar="1:1" bandwidth="100000">
+   </Representation>
+  </AdaptationSet>
+ </Period>

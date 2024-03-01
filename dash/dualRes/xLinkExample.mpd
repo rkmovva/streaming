@@ -50,5 +50,5 @@
 			</Representation>
 		</AdaptationSet>
 	</Period>
-	<Period xlink:href="http://dash.edgesuite.net/dash264/TestCases/5c/nomor/4_twoperiods_remoteelement.period" xlink:actuate="onRequest" xmlns:xlink="http://www.w3.org/1999/xlink"></Period>
+	<Period xlink:href="http://dash.edgesuite.net/dash264/TestCases/5c/nomor/4_twoperiods_remoteelement.period" xlink:actuate="onLoad" xmlns:xlink="http://www.w3.org/1999/xlink"></Period>
 </MPD>
